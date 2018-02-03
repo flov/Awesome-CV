@@ -1,0 +1,70 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Projects}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {University}
+    {Asteroid field simulation} % Affiliation/role
+     % Organization/group
+    {C++, cgal, OSG} % Location
+    {https://alexus37.github.io/asteroidField/} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of experience/contributions/knowledge
+        \item {Simulating planets and asteroids in space is an intersecting multi dimensional challenge. Due to the nature of the set up, we have to solve a few hard challenges to achieve a real time engine. The first part of the problem is the numerical computation of gravitational forces. This problem is today only solved analytically for 2 bodies. Since our objective is to have an asteroid field we using numerical methods to approximated these forces. Once the bodies start to move around the second challenge is to handle collisions and compute physically correct responses. Again this needs to be done in rather fast fashion to be able to run in real time.}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {Private}
+    {tripTrackr} % Affiliation/role
+     % Organization/group
+    {Rubz on rails, js, OSG} % Location
+    {https://www.triptrackr.de/} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of experience/contributions/knowledge
+        \item {
+The motivation behinde this project was to understand the full stack developement of an app with including backend. Therefore I choose to create a travel app, where users can create a personal webpage with the travel trajectory and share it with friends.
+        }
+      \end{cvitems}
+    }
+    
+    %---------------------------------------------------------
+  \cventry
+    {Private}
+    {WebGL interface for the NORI renderer} % Affiliation/role
+     % Organization/group
+    {Python, django, three.js} % Location
+    {http://alexus37.github.io/NoriV2Webinterface/} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of experience/contributions/knowledge
+        \item {
+        SNori Webinterface is a web platform, functioning as a frontend for the Nori Raytracer. It features a user management system, allowing users to save and load scenes, which they can edit in a 3D editor in the browser. Scenes can then be renderd by the platform and will be streamed, piece by piece to the browser. The server uses Django to provide a REST API which is used by an Angular Web App. THREE.js is used for the 3D Editor. The rendered image is streamed to piece by piece via a Websocket.
+        }
+      \end{cvitems}
+    }
+    
+    %---------------------------------------------------------
+  \cventry
+    {University}
+    {Thermal augmented reality chess} % Affiliation/role
+     % Organization/group
+    {C++, python, ROS} % Location
+    {http://alexus37.github.io/pdf/report.pdf} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of experience/contributions/knowledge
+        \item {
+        The goal of this project was to create an augmented reality chess game. We used two cameras - an RGB-D camera and a thermal camera. The RGB camera is used to track a paper checkerboard with augmented reality markers which are used to estimate the pose of the camera. The video with the resulting camera matrix are used by OpenGL to augment the video with the virtual game objects. We use a thermal camera for the detection of the user input.
+        }
+      \end{cvitems}
+    }
+%---------------------------------------------------------
+\end{cventries}
